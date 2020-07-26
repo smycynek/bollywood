@@ -10,7 +10,6 @@ import { title, questions, results } from './quizData';
 ReactDOM.render(
   <React.StrictMode>
     <CasualQuiz
-      class="App"
       title={title}
       results={results}
       questions={questions}
