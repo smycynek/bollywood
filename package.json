@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.0",
     "react": "^16.13.1",
-    "react-casual-quiz": "^1.0.15",
+    "react-casual-quiz": "^1.0.16",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
