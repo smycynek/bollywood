@@ -3,7 +3,7 @@ import tiger from './tiger.jpg';
 import johnny from './johnny.jpg';
 import hrithik from './hrithik.jpg';
 
-export const title = 'Which Bollywood leading man are you?';
+export const name = 'Which Bollywood leading man are you?';
 export const results = [
   {
     name: 'Amitabh Bachchan',
@@ -29,8 +29,8 @@ export const results = [
 
 export const questions = [
   {
-    Question: 'After a long day, how do you like to unwind?',
-    Choices: [
+    text: 'After a long day, how do you like to unwind?',
+    choices: [
       'A single malt and a piece of classic literature',
       'Lifting cinder blocks above my head',
       'Practicing funny faces in the mirror',
@@ -38,8 +38,8 @@ export const questions = [
     ],
   },
   {
-    Question: 'How do you like to take your chai?',
-    Choices: [
+    text: 'How do you like to take your chai?',
+    choices: [
       'Classic -- the way my grandmother made it',
       'With steroids',
       'Dark',
@@ -47,9 +47,9 @@ export const questions = [
     ],
   },
   {
-    Question:
+    text:
       'You\'re walking down the street and are confronted by a mugger.  What do you do?',
-    Choices: [
+    choices: [
       'I would speak to the young man with reason and show him the error of his ways',
       '360 spin kick to the head',
       'I\'d try to make him laugh, and when he was confused, I\'d run away',
@@ -57,8 +57,8 @@ export const questions = [
     ],
   },
   {
-    Question: 'What do you expect your child to be when they grow up?',
-    Choices: [
+    text: 'What do you expect your child to be when they grow up?',
+    choices: [
       'Doctor',
       'Engineer',
       'Hotel manager',
@@ -66,8 +66,8 @@ export const questions = [
     ],
   },
   {
-    Question: 'If my neighbor did not like the samosas I brought to a party:',
-    Choices: [
+    text: 'If my neighbor did not like the samosas I brought to a party:',
+    choices: [
       'I would gracefully apologize and suggest I would perhaps bring some Johnny Walker Black next time',
       'I would claim they are high-protein samosas for bodybuilding, so they taste different',
       'I would feed them to the neighbor\'s dog',
@@ -75,8 +75,8 @@ export const questions = [
     ],
   },
   {
-    Question: 'For TV, I like',
-    Choices: [
+    text: 'For TV, I like',
+    choices: [
       'Dish Network -- classic films!',
       'Direct TV -- sports!',
       'YouTube -- Dogs stealing pakoras!',
@@ -84,8 +84,8 @@ export const questions = [
     ],
   },
   {
-    Question: "If my child wasn't listening to me, I would discipline them by:",
-    Choices: [
+    text: "If my child wasn't listening to me, I would discipline them by:",
+    choices: [
       'Making them run ten kilometers',
       'Giving them a nice smack to the face',
       'Sending them to Dadi\'s or Nani\'s house',
@@ -93,8 +93,8 @@ export const questions = [
     ],
   },
   {
-    Question: 'My ideal family Saturday is:',
-    Choices: [
+    text: 'My ideal family Saturday is:',
+    choices: [
       'Macy\'s to look at pants, then snacks at Uncle\'s',
       'Uphill mountain walking',
       'Miniature golf followed by going out for dosas',
@@ -102,8 +102,8 @@ export const questions = [
     ],
   },
   {
-    Question: 'My favorite clothing brand?',
-    Choices: [
+    text: 'My favorite clothing brand?',
+    choices: [
       'Polo - I love their shirts!',
       'Polo - I love their shorts!',
       'Polo - I love their sandals!',

@@ -5,12 +5,12 @@ import ReactDOM from 'react-dom';
 import CasualQuiz from 'react-casual-quiz/lib';
 import * as serviceWorker from './serviceWorker';
 
-import { title, questions, results } from './quizData';
+import { name, questions, results } from './quizData';
 
 ReactDOM.render(
   <React.StrictMode>
     <CasualQuiz
-      title={title}
+      name={name}
       results={results}
       questions={questions}
       showSource
